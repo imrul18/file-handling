@@ -58,6 +58,7 @@
                     fwrite($reg_file, "$firstname , $lastname , $gender , $email , $username , $password , $rec_email\n");
                     fclose($reg_file);
 
+                    echo "Registration Successfull!!!";
 
                 }
 
